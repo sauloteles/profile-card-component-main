@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&family=Kumbh+Sans:wght@400;700&display=swap');
+
+:root{
+    --Dark-cyan: hsl(185, 75%, 39%);
+    --Very-dark-desaturated-blue: hsl(229, 23%, 23%);
+    --Dark-grayish-blue: hsl(227, 10%, 46%);
+    --Dark-gray: hsl(0, 0%, 59%);
+    --kumbh-sans: "Kumbh Sans";
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-color: var(--Dark-cyan) ;
+}
+
+.card-main{
+    font-family: var(--kumbh-sans);
+    background-color: white;
+    width: 350px;
+}
+
+
+
+
+.perfil{
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.stats{
+    margin-top: 2rem;
+    padding-bottom: 1.5rem;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
